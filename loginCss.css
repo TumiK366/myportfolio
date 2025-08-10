@@ -1,0 +1,80 @@
+body { background-color: rgb(188, 98, 247);
+    color: white;
+    font-family: Arial, sans-serif;
+    
+
+
+}
+#loginpage{
+    text-align: center;
+    
+}
+
+h3 {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+div {margin-bottom: 10px;
+}
+input[type="text"], input[type="password"] {
+    border: 0;
+    color: white;
+
+    width: 400px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+   
+    margin: 5px;
+    background-color: rgb(188, 98, 247) ;
+    border-bottom:  1px solid #ccc;
+}
+
+input[type="checkbox"] {
+    accent-color:rgb(244, 238, 141);
+    zoom:1;
+
+}
+::placeholder {
+    color: white;
+}
+#signup{
+    border-radius: 5px;
+    background-color: rgb( 244, 238, 141);
+    border: 0;
+    width: 405px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px
+}
+#rem{
+    margin-right: 150px; 
+    color: rgb( 244, 238, 141);
+
+
+}
+#facebook , #twitter {
+    padding-right: 75px;
+    padding-left: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+#facebook a, #twitter a {
+    text-decoration: none;
+    color: black;
+}
+#forgot a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+#weneedspace {
+    margin-bottom: 45px;
+}
+:focus {
+    outline: none;
+}
+::-ms-reveal {
+    filter: invert(100%);
+}
